@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fedcobra"
+version = "0.1.0"
+description = "FedCoBRA: Contour-Box Reliability-Aware federated learning and the SynPoly-FL benchmark"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = ["jax[cpu]>=0.4.20", "numpy>=1.24", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["fedcobra"]

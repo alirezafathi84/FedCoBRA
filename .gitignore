@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+cache/
+*.npz
+results_smoke/
+paper_assets/
+.venv/
+.pytest_cache/
+.DS_Store
